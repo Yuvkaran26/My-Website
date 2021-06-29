@@ -1,0 +1,18 @@
+.val1{display: flex; justify-content: space-around; margin-bottom: 30px;}
+.val2{display: flex; justify-content: center; margin-bottom: 30px;}
+.val3{display: flex; justify-content: space-around;}
+.heading1{display:flex; justify-content: center ; color: red;}
+.heading2{display:flex; justify-content: center ;}
+.heading3{display:flex; justify-content: center ;;}
+.photo {display: flex; justify-content: flex-end;}
+html, body{background-image: linear-gradient(to right, salmon, coral, crimson);}
+.about{max-width: 400px; max-height: 600px; margin-top: -600px; }
+
+.heading1:hover{color: green;}
+.heading3:hover{font-weight: bold;}
+.val1 img:hover{transform: rotate(360deg);transition: 2s;}
+.val2 img:hover{width: 600px;height: 600px;transition: 2s;}
+.val3 img:hover{transform: rotate(360deg);transition: 2s;}
+
+.photo img:hover{width: 600px;height: 750px;transition: 3s;}
+.photo img{border-radius: 40px;}
